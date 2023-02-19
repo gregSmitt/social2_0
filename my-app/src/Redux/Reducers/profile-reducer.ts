@@ -13,7 +13,7 @@ const SET_STATUS = 'profile/SET_STATUS';
 const initialState: ProfilePageType = {
 	currentProfileId: null,
 	profileInformation: {
-		"aboutMe": "я круто чувак 1001%",
+		"aboutMe": "какое-то описание",
 		"contacts": {
 			"facebook": "facebook.com",
 			"website": null,
@@ -25,7 +25,7 @@ const initialState: ProfilePageType = {
 			"mainLink": null
 		},
 		"lookingForAJob": true,
-		"lookingForAJobDescription": "не ищу, а дурачусь",
+		"lookingForAJobDescription": "что-то где-то как-то",
 		"fullName": "samurai dimych",
 		"userId": 2,
 		"photos": {
@@ -37,17 +37,17 @@ const initialState: ProfilePageType = {
 	postsData: [
 		{
 			id: 1,
-			text: 'Fuck u! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio quaerat quam fugit esse, dolor officiis quisquam consequatur dignissimos sunt.',
+			text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio quaerat quam fugit esse, dolor officiis quisquam consequatur dignissimos sunt.',
 			imageUrl: 'https://routinejournal.com/wp-content/uploads/2019/07/11.jpg',
 		},
 		{
 			id: 2,
-			text: 'Fuck u! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio quaerat quam fugit esse, dolor officiis quisquam consequatur dignissimos sunt.',
+			text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio quaerat quam fugit esse, dolor officiis quisquam consequatur dignissimos sunt.',
 			imageUrl: 'https://routinejournal.com/wp-content/uploads/2019/07/11.jpg',
 		},
 		{
 			id: 3,
-			text: 'Fuck u! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio quaerat quam fugit esse, dolor officiis quisquam consequatur dignissimos sunt.',
+			text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odio quaerat quam fugit esse, dolor officiis quisquam consequatur dignissimos sunt.',
 			imageUrl: 'https://routinejournal.com/wp-content/uploads/2019/07/11.jpg',
 		}
 	],
