@@ -12,7 +12,7 @@ const ListItems = (props: Props) => {
 		<>
 			<StringAbout pointName='position' pointInfo='cleaner' {...props} />
 			<StringAbout pointName='city' pointInfo='New York' {...props} />
-			<StringAbout pointName='cum' pointInfo='Nizhnezalupinsky State University' {...props} />
+			<StringAbout pointName='cum' pointInfo='Zaboropressovochniy State University' {...props} />
 			<StringAbout pointName='Web Site' pointInfo='Web.what?' {...props} />
 		</>
 	);
