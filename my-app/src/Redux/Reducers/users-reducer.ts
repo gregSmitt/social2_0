@@ -27,7 +27,7 @@ const initialState: UsersStateType = {
 			"followed": false
 		},
 		{
-			"name": "Но какого-то хуя",
+			"name": "Но почему-то",
 			"id": 100000000002,
 			"uniqueUrlName": null,
 			"photos": {
